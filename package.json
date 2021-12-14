@@ -14,19 +14,9 @@
         "Nick Rabinowitz (https://github.com/nrabinowitz)",
         "Olivier Lesnicki (https://github.com/olivierlesnicki)"
     ],
-    "license": {
-        "type": "MIT",
-        "url": "http://github.com/olivierlesnicki/quantize/raw/master/LICENSE"
-    },
+    "license": "ISC",
     "source": "src/quantize.js",
     "main": "dist/index.js",
-    "module": "dist/index.mjs",
-    "scripts": {
-        "build": "microbundle --no-compress --no-sourcemap",
-        "watch": "microbundle --no-compress --no-sourcemap watch"
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "microbundle": "^0.11.0"
-    }
+    "scripts": {},
+    "dependencies": {}
 }
